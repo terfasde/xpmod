@@ -14,7 +14,7 @@
 
 <body>
     <header>
-       <h1 class="titulo">Xp mods</h1>
+        <h1 class="titulo">Xp mods</h1>
             <nav>
                 <ul class="nav-list">
                     <li><a href="index.html">Inicio</a></li>
@@ -25,15 +25,22 @@
                 </ul>
             </nav>
     </header>
-    <main>
-        <div class="container">
-            <h1>Bienvenidos a XpMod, tu pagina de ensueño de mods de minecraft.</h1>
-            <button class="btn-inicio"><a href="catalogo.html">Click aquí para ver catalogo</a></button>
-        </div>
-    </main>
-    <footer>
-        
-    </footer>
+    <h1>Iniciar sesión</h1>
+
+    <form action="login.php" method="post">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario">
+
+        <br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
+
+        <br>
+
+        <button type="submit">Iniciar sesión</button>
+    </form>
+
 </body>
 
 </html>
