@@ -50,44 +50,9 @@ nav .nav-list a:hover {
     position: relative;
 }
 
-.count-products {
-    position: absolute;
-    top: 55%;
-    right: 0;
 
-    background-color: #000;
-    color: #fff;
-    width: 25px;
-    height: 25px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-#contador-productos {
-    font-size: 12px;
-}
-
-.container-cart-products {
-    position: absolute;
-    top: 50px;
-    right: 0;
-
-    background-color: #fff;
-    width: 400px;
-    z-index: 1;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-    border-radius: 10px;
-}
-
-.cart-product {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.20)
-}
 
 .info-cart-product {
     display: flex;
@@ -119,29 +84,6 @@ nav .nav-list a:hover {
     stroke: red;
     cursor: pointer;
 }
-
-.cart-total {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    gap: 20px;
-}
-
-.cart-total h3 {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.total-pagar {
-    font-size: 20px;
-    font-weight: 900;
-}
-
-.hidden-cart {
-    display: none;
-}
-
 
 /* Main */
 .container-items {
@@ -190,13 +132,13 @@ nav .nav-list a:hover {
 
 .btn-inicio:hover{
     background-color: rgb(0, 0, 0, 0.25);
-    background: url(img/Stone.png);
+    background-image: url(img/Cobblestone_top.png);
 }
 .btn-inicio {
     margin-bottom: 10px;
     padding: 10px 20px;
     width: 50%;
-    background-image: url(img/Cobblestone_top.png);
+    background: url(img/Stone.png);
     color: white;
     cursor: pointer;
     box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
@@ -211,9 +153,19 @@ nav .nav-list a:hover {
     cursor: pointer;
     box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
 }
+
+.btn-mc a {
+    text-decoration: none ;
+    color: #ffffff;
+
+}
+.btn-mc a:hover{
+    color: #8cd987;
+}
 .btn-mc:hover{
     background-color: rgb(0, 0, 0, 0.25);
     background: url(img/Stone.png);
+    
 }
 .container h1{
     color: #fff;
