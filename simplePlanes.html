@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Francisco Lorenzo, Tiago Donato y Andrés Legaria">
     <meta name="description" content="Una pagina de mods de minecraft">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
     <title>Xp mods</title>
     <link rel="stylesheet" href="style.css" />
@@ -21,5 +24,51 @@
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
+    <div class="container-table">
+        <div class="gallery">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="slides">
+                <img src="img/SimplePlanes/SimplesPlanes1.png" alt="Image 1" class="slide">
+                <img src="img/SimplePlanes/SimplesPlanes2.png" alt="Image 2" class="slide">
+                <img src="img/SimplePlanes/SimplesPlanes3.png" alt="Image 3" class="slide">
+                
+            </div>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        
+        <div class="info">
+            <table>
+                <caption><b>Acerca de Simple Planes</b></caption>
+                <tr>
+                    <td>Creado:</td>
+                    <td>10 de Junio de 2020</td>
+                </tr>
+                <tr>
+                    <td>Última Actualización:</td>
+                    <td>5 de Febrero de 2024</td>
+                </tr>
+                <tr>
+                    <td>Versiones compatibles:</td>
+                    <td>1.20.1, 1.20, 1.19.2, 1.19.1, 1.19</td>
+                </tr>
+                <tr>
+                    <td>Mod Loaders:</td>
+                    <td>Forge, NeoForge</td>
+                </tr>
+                <tr>
+                    <td>Descripcion:</td>
+                    <td>Para encender el motor y cambiar el acelerador, use las teclas de flecha arriba/abajo o verifique las combinaciones de teclas.
+
+                        Si no juegas con ningún mod de electricidad, la estación de carga es inútil y solo puedes cargar el motor eléctrico usando el panel solar.</td>
+                </tr>
+                <tr>
+                    <td>Link de descarga: </td>
+                    <td><a href="https://www.curseforge.com/minecraft/mc-mods/dungeons-mod/files/all?page=1&pageSize=20" target="_blank">Click Aqui</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button class="btn-volver"><a href="catalogo.html">VOLVER AL CATALOGO</a></button>
+    <script src="script.js"></script>
 </body>
 </html>

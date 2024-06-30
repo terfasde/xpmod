@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Francisco Lorenzo, Tiago Donato y Andrés Legaria">
     <meta name="description" content="Una pagina de mods de minecraft">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
-    <title>Xp mods</title>
+    <title>Quark</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,5 +24,47 @@
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
+    <div class="container-table">
+        <div class="gallery">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="slides">
+                <img src="img/Quark/quark1.webp" alt="Image 1" class="slide">
+                <img src="img/Quark/quark2.png" alt="Image 2" class="slide">                
+            </div>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        
+        <div class="info">
+            <table>
+                <caption><b>Acerca de Quark</b></caption>
+                <tr>
+                    <td>Creado:</td>
+                    <td>20 de Marzo de 2016</td>
+                </tr>
+                <tr>
+                    <td>Última Actualización:</td>
+                    <td>11 de Junio de 2024</td>
+                </tr>
+                <tr>
+                    <td>Versiones compatibles:</td>
+                    <td>1.20.1, 1.18.1, 1.18, 1.17.1, 1.16.5</td>
+                </tr>
+                <tr>
+                    <td>Mod Loaders:</td>
+                    <td>Forge, NeoForge</td>
+                </tr>
+                <tr>
+                    <td>Descripcion:</td>
+                    <td>Quark es un mod de Minecraft totalmente modular, que lleva el nombre de la partícula subatómica. En términos más simples, es un mod grande con muchas características pequeñas, destinadas a mejorar el juego básico.</td>
+                </tr>
+                <tr>
+                    <td>Link de descarga: </td>
+                    <td><a href="https://www.curseforge.com/minecraft/mc-mods/quark/files/all?page=1&pageSize=20" target="_blank">Click Aqui</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button class="btn-volver"><a href="catalogo.html">VOLVER AL CATALOGO</a></button>    
+    <script src="script.js"></script>
 </body>
 </html>
