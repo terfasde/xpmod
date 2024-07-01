@@ -183,10 +183,11 @@ a {
 }
 
 #logo {
-    width: 100%;
     max-width: 25rem;
     height: auto;
-    margin: 1rem;
+    margin-left: 50px;
+    margin-top: 40px;
+
 }
 
 h2 {
@@ -311,4 +312,59 @@ td {
 }
 .btn-volver-corail a:hover {
     color: #8cd987;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff0d0d;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #14629e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000; 
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.form-group button {
+    background-color: #114714;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto 0;
 }
