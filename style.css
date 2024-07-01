@@ -42,6 +42,7 @@ nav .nav-list {
 
 nav .nav-list li {
     display: inline;
+    font-size: 24px;
 }
 
 nav .nav-list a {
@@ -273,13 +274,13 @@ td {
     width: 15%;
     height: 8%;
     font-size: 24px;
-    margin-left: 76%;
+    margin-left: 75%;
     background-image: url(img/Stone.png);
     color: white;
     cursor: pointer;
     box-shadow: 0.25rem 0.25rem 0.5rem 0 rgba(0, 0, 0);
     padding: 1rem;
-    margin-bottom: 400px;
+
 }
 
 .btn-volver a {
@@ -287,5 +288,27 @@ td {
 }
 
 .btn-volver a:hover {
+    color: #8cd987;
+}
+.img-planes{
+    height: 600px;
+    min-width: 100%;
+}
+.btn-volver-corail{
+    width: 15%;
+    height: 8%;
+    font-size: 24px;
+    margin-left: 75%;
+    background-image: url(img/Stone.png);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0.25rem 0.25rem 0.5rem 0 rgba(0, 0, 0);
+    padding: 1rem;
+    margin-top: 185px;
+}
+.btn-volver-corail a {
+    color: #fff;
+}
+.btn-volver-corail a:hover {
     color: #8cd987;
 }
